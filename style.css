@@ -1,0 +1,61 @@
+body {
+    font-family: "Shantell Sans", cursive;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-image: linear-gradient(red, rgb(255, 255, 0), rgb(255, 252, 252));
+
+
+
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    background-image: linear-gradient(red, rgb(255, 255, 0), rgb(255, 252, 252));
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+nav a:hover {
+    box-shadow: 6px 6px 20px black;
+    background-image: linear-gradient(rgb(51, 248, 6), rgb(246, 255, 0), rgb(253, 153, 2));
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+img {
+    box-shadow: 6px 6px 20px black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    text-shadow: 6px 6px 20px black;
+    padding: 20px;
+}
